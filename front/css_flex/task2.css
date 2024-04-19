@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+.yellowgreen {
+    width: 900px;
+    height: 150px;
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+.green {
+    width: 350px;
+    height: 150px;
+    background-color: darkolivegreen;
+
+}
+
+.orange {
+    width: 200px;
+    height: 75px;
+    background-color: orange;
+
+}
+
+.yellow {
+    width: 650px;
+    height: 450px;
+    background-color: yellow;
+
+
+
+}
+
+.red {
+    width: 250px;
+    height: 450px;
+    background-color: red;
+
+
+}
+
+
+
