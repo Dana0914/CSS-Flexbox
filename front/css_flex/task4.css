@@ -1,0 +1,61 @@
+* {
+    outline:none;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+
+.yellowgreen {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    border: orange groove;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.green {
+    width: 400px;
+    height: 150px;
+    border: orange groove;
+    border-right: hidden;
+    border-left: hidden;
+}
+
+
+
+.orange {
+    width: 200px;
+    height: 75px;
+
+
+}
+
+.yellow {
+    width: 750px;
+    height: 450px;
+    border: orange groove;
+    border-left: hidden;
+    border-top: hidden;
+
+
+
+}
+
+.red {
+    width: 250px;
+    height: 450px;
+    border: orange groove;
+    border-top: hidden;
+
+
+}
+
+
+
