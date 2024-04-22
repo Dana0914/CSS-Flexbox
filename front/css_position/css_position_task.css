@@ -15,19 +15,23 @@ body {
 
 .button {
     position: relative;
-    width: 250px;
+    width: auto;
     height: 70px;
     border-radius: 50px;
     border: transparent;
-    background: none;
 
-    padding-left: 50px;
+}
+
+.button-text {
+    position: relative;
+    left:30px;
+    padding: 0 60px;
     font-size: 2rem;
     font-weight: bold;
     font-family: Arial, serif;
-
-
 }
+
+
 
 .circle {
     position: absolute;
@@ -36,7 +40,6 @@ body {
     width: 70px;
     height: 70px;
     top: -2px;
-    transition: 1s;
     border: 5px solid yellowgreen;
 }
 
@@ -48,18 +51,22 @@ body {
     left: 15px;
     height: 5px;
     width: 30px;
-    transition: 1s;
     background-color: yellowgreen;
 }
 
 
 .button:hover .line {
-    width: 20%;
+    width: 60px;
 }
 
 .button:hover .circle {
-    width: 250px;
+    width: 100%;
 
+}
+
+.line,
+.circle {
+    transition: 1s;
 }
 
 
